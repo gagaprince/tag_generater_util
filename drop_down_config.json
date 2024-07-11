@@ -1,0 +1,43 @@
+{
+  "masters": [
+    {
+      "name": "云溪",
+      "lora": "<lora:yunxi:1>",
+      "tag": "1girl, <lora:yunxi:1>"
+    }
+  ],
+  "clothes": [
+    {
+      "name": "广袖流仙裙",
+      "lora": "",
+      "tag": "xxx"
+    }
+  ],
+  "expressions": [
+    {
+      "name": "开心",
+      "lora": "",
+      "tag": "smill, happy"
+    }
+  ],
+  "poses": [
+    {
+      "name": "v手势",
+      "lora": "",
+      "tag": ""
+    }
+  ],
+  "scenes": [
+    {
+      "name": "客厅",
+      "lora": "",
+      "tag": "TV set, computer, sofa"
+    }
+  ],
+  "views": [
+    {
+      "name": "从正面看",
+      "tag": "front view"
+    }
+  ]
+}

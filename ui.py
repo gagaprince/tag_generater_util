@@ -1,4 +1,5 @@
 import gradio as gr
+import json
 
 # pip install -r requirements.txt
 #
@@ -35,6 +36,12 @@ import gradio as gr
 #         outputs=None,
 #         js=f"saveResult"
 #     )
+
+def load_config():
+    global drop_down_config
+    with open('drop_down_config.json', 'r') as file:
+        drop_down_config = json.load(file)
+
 
 
 def get_hua_feng_list():
