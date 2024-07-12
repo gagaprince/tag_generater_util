@@ -63,7 +63,9 @@ def replace_comma_space(string):
     pattern = r',+(\s*,+)*'
     string = re.sub(pattern, ',', string)
     pattern = r'\s+,'
-    return re.sub(pattern, ',', string)
+    string = re.sub(pattern, ',', string)
+    pattern = r'^,'
+    return re.sub(pattern, '', string)
 
 
 def generater_tags(common_text_list, out_mode, people_desc, movement_desc, scene_desc,
