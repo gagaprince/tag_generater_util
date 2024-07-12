@@ -10,7 +10,7 @@
     {
       "name": "广袖流仙裙",
       "lora": "",
-      "tag": "xxx"
+      "tag": "guangxiu"
     }
   ],
   "expressions": [
@@ -24,7 +24,7 @@
     {
       "name": "v手势",
       "lora": "",
-      "tag": ""
+      "tag": "v pose"
     }
   ],
   "scenes": [
@@ -38,6 +38,52 @@
     {
       "name": "从正面看",
       "tag": "front view"
+    }
+  ],
+  "commons": [
+    {
+      "name": "高质量相关",
+      "tag": "(best quality,4k,8k,highres,masterpiece:1.2),ultra-detailed"
+    },{
+      "name": "真实",
+      "tag": "(realistic,photorealistic,photo-realistic)"
+    },{
+      "name": "动漫",
+      "tag": "anime"
+    },{
+      "name": "R级",
+      "tag": "score_7_up"
+    }
+  ],
+  "others": [
+    {
+      "name": "壁咚",
+      "tag": "bidong"
+    },{
+      "name": "蒙眼",
+      "tag": "(realistic,photorealistic,photo-realistic)"
+    },{
+      "name": "拥抱",
+      "tag": "kiss"
+    },{
+      "name": "公主抱",
+      "tag": "hhh"
+    }
+  ],
+  "R_DESC": [
+    {
+      "name": "xx",
+      "tag": "xx"
+    }
+  ],
+  "modes": [
+    {
+      "name": "无",
+      "tag": ""
+    },
+    {
+      "name": "黑白漫画模式",
+      "tag": "((Black and white manga, story page, monochrome mode))"
     }
   ]
 }
