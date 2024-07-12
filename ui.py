@@ -175,6 +175,8 @@ def ui():
             # 动作姿态选择 手势+姿态+互动
             movement_desc = gr.Dropdown(movement_list, label="选择人物动作", value=0, type="value",
                                         elem_id="movement_desc", allow_custom_value=True)
+    with gr.Column():
+        with gr.Row():
             # 场景环境选择 所处环境描述 + 灯光 + 远近 + 物品
             scene_desc = gr.Dropdown(scene_list, label="选择场景", value=0, type="value", elem_id="movement_desc",
                                      allow_custom_value=True)
